@@ -1,0 +1,61 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(rgb(109, 234, 192), rgb(148, 148, 233));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 50%;
+    margin: 10px auto;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.container h1{
+    text-align: center;
+    margin : 10px;
+}
+
+.container > .cards{
+    margin : 50px 60px;
+    padding : 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.container > .cards:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    border : 1px solid black;
+}
+.container > .cards:hover h2{
+    font-size: 30px;
+}
+
+.container > .cards h2, .container > .cards p{
+    margin : 20px 0px;
+}
+
+.container > .cards p{
+    color : #00000091
+}
+
+.container > .forest{
+    background : linear-gradient(to right, rgb(123, 237, 123),rgb(236, 189, 101));
+}
+
+.container > .garden{
+    background : radial-gradient(circle, rgb(234, 89, 101),rgb(233, 122, 168));
+}
+
+.container > .ocean{
+    background : conic-gradient(rgb(232, 236, 121),rgb(147, 231, 235));
+}
